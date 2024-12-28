@@ -6,6 +6,63 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <h1>Contact Us</h1>
+        
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <div class="social-links">
+                <h3>Follow Us:</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.992430394191!2d-122.08424968469435!3d37.42206597982271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b1c8d90f45%3A0xc1e4e1e0d9ebfd!2sGoogleplex!5e0!3m2!1sen!2s!4v1697316795792!5m2!1sen!2s" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+<br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+<br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+<br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved. Copyright TechCon 2024.</p>
+    </footer>
 </body>
 </html>
